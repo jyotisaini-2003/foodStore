@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resturant websiite</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Our css file below-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--navbar start here-->
+    <nav class="navbar navbar-expand-lg bg-dark shadow p-3 sticky-top">
+        <div class="container-fluid bg-dark">
+            <a class="navbar-brand " href="#" style="color:rgba(255,119,0);">Qrispy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" class="navbar-toggler collapsed"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                style="color: shadow grey;background-color: white;" button="">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto myvar">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#aboutus">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#exploreourmenu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#whychooseus">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#ourteammembers">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#bookyourtable">Reservation</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-brand" style="background-color:rgba(255,119,0);"
+                        style="color:white;">OrderOnline</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--navbar close here-->
+    <!--corousel  start-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="samosa.jpg" class="d-block w-100 image-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center">
+                    <h6 class="text-white font-weight-bold"><strong>WELCOME TO QRISPY</strong></h6>
+                    <h1 class="display-1 text-white font-weight-bold"><strong>Authentic & Crispy Samosas</strong>
+                    </h1>
+                    <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Book
+                        Table</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="insta1.jpg" class="d-block w-100 image-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center">
+                    <h6 class="text-white font-weight-bold"><strong>WELCOME TO QRISPY</strong></h6>
+                    <h1 class="display-1 text-white font-weight-bold"><strong>Vibrant plate of diverse, colorful
+                            flavors
+                        </strong>
+                        </strong></h1>
+                    <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Book
+                        Tabel</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="chowmein.jpg" class="d-block w-100 image-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block text-center">
+                    <h6 class="text-white font-weight-bold"><strong>WELCOME TO QRISPY</strong></h6>
+                    <h1 class="display-1 text-white font-weight-bold"><strong>Stir-fried chowmein with veggies,
+                            spices</strong></h1>
+                    <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Book
+                        Table</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--carousel end here-->
+    <!-- About Section start here -->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Column with Image -->
+                <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
+                    <img src="food8.jpg" alt="About us image" class="img-fluid left-image">
+                </div>
+
+                <!-- Right Column with Text -->
+                <div class="col-lg-6 col-md-6 text-center text-md-start">
+                    <h1 id="aboutus">About Us</h1>
+                    <div class="divider">
+                        <p>Welcome to Qrispy, where every bite is crafted to delight. We specialize in creating a
+                            perfect blend of savory, crispy dishes and indulgent sweets to satisfy every craving. From
+                            golden, crunchy fried delicacies to a carefully curated selection of desserts, our menu is
+                            designed for those who appreciate quality, flavor, and innovation. At Qrispy, we prioritize
+                            the finest ingredients, ensuring that each item is as fresh as it is delicious. Our chefs
+                            are passionate about delivering a memorable culinary experience, combining texture, taste,
+                            and presentation in every dish. Whether you’re craving the satisfying crunch of our
+                            signature fried items or the sweet indulgence of our handcrafted desserts, we aim to provide
+                            an experience that goes beyond just a meal. Discover the art of exceptional taste with
+                            Qrispy, where quality and flavor meet in perfect harmony, offering an unforgettable dining
+                            journey for all.
+                        </p>
+
+                        <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Explore
+                            Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About section end here-->
+    <!--Menu Start here-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 id="exploreourmenu">Explore our Menu</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea necessitatibus pariatur eaque?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Menu end here-->
+    <!--Nav and tabs start-->
+    <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">All Dishes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Breakfast</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Lunch</a>
+        </li>
+    </ul>
+    <!--Nav and tabs end here-->
+    <!-- cards start here -->
+    <div class="d-flex justify-content-center flex-wrap">
+        <div class="card m-1 mt-2" style="width: 18rem;">
+            <img src="food15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Spiced Chicken Kebabs</h5>
+                <p class="card-text">
+                    Savor our Spiced Chicken Kebabs-marinated, grilled chicken skewers infused with rich spices,
+                    offering a
+                    perfect blend of smoky flavor and tenderness.
+                </p>
+                <div class="rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Get Yours!</a>
+            </div>
+        </div>
+        <!-- card2 -->
+        <div class="card m-1 mt-2" style="width: 18rem;">
+            <img src="food12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Street Food Collection</h5>
+                <p class="card-text">
+                    Street food offers a vibrant array of flavors, textures, and aromas, reflecting diverse cultures and
+                    providing delicious, quick dining experiences.
+                </p>
+                <div class="rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+
+                </div>
+                <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Get Yours!</a>
+            </div>
+        </div>
+        <!-- card3 -->
+        <div class="card m-1 mt-2" style="width: 18rem;">
+            <img src="food16.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Spinach & Paneer Delight</h5>
+                <p class="card-text">
+                    Spinach and paneer delight blends fresh spinach with soft paneer, enhanced by fragrant spices. This
+                    healthy, flavorful dish is a delightful vegetarian choice.
+                </p>
+                <div class="rating" data-rating="0">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                </div>
+                <a href="#" class="btn btn-brand" style="color: white; background-color:rgba(255,119,0)">Get Yours!</a>
+            </div>
+        </div>
+    </div>
+    <!--Features Section start here-->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-center">
+                    <h1 class="text-white" id="whychooseus">Why Choose Us?</h1>
+                    <p class="text-white">Experience delicious food, exceptional service, and ultimate convenience.
+                    </p>
+                </div>
+            </div>
+            <!--wifi 1-->
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4">
+                        <div class="feature-icon">
+                            <i class="ri-timer-2-fill"></i> <!-- Ensure the correct icon library is included -->
+                        </div>
+                        <h4 class="text-white">Free Wifi</h4>
+                        <p class="text-white">
+                        <p class="text-white">
+                            Stay connected anytime with our free Wi-Fi.</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4">
+                        <div class="feature-icon">
+                            <i class="ri-rocket-fill"></i>
+                        </div>
+                        <h4 class="text-white">Fast Service</h4>
+                        <p class="text-white">We ensure timely service for all our customers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4">
+                        <div class="feature-icon">
+                            <i class="ri-shield-fill"></i>
+                        </div>
+                        <h4 class="text-white">Secure Payments</h4>
+                        <p class="text-white">Your transactions are always safe with us.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature py-5 px-4">
+                        <div class="feature-icon">
+                            <i class="ri-customer-service-2-fill"></i>
+                        </div>
+                        <h4 class="text-white">24/7 Support</h4>
+                        <p class="text-white">We are here to help you anytime, day or night.</p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!--Features section end here-->
+    <!-- Team Section start here -->
+    <section id="Team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-center">
+                    <h1 id="ourteammembers">Our Team Members</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ea necessitatibus pariatur eaque?
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-member text-center position-relative">
+                        <div class="half-circle"></div>
+                        <img src="chef1.jpg" alt="John Doe" class="img-fluid rounded-circle"
+                            style="width: 100px; height: 100px;">
+                        <div class="team-member-content">
+                            <h4>John Doe</h4>
+                            <p class="mb-0">Main Chef</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-member text-center position-relative">
+                        <div class="half-circle"></div>
+                        <img src="handsomechef.jpg" alt="John Doe" class="img-fluid rounded-circle"
+                            style="width: 100px; height: 100px;">
+                        <div class="team-member-content">
+                            <h4>Chef Leo</h4>
+                            <p class="mb-0">Line Cook.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="team-member text-center position-relative">
+                        <div class="half-circle"></div>
+                        <img src="ladychef.jpg" alt="John Doe" class="img-fluid rounded-circle"
+                            style="width: 100px; height: 100px;">
+                        <div class="team-member-content">
+                            <h4>Chef Jasmine</h4>
+                            <p class="mb-0">Food Stylist.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team section end here -->
+    <!-- Review Section start here -->
+    <section id="review" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-center">
+                    <h1 class="text-white">Our Client Saying</h1>
+                    <p class="text-white">Experience delicious food, exceptional service, and ultimate convenience.</p>
+                </div>
+            </div>
+            <div id="reviewSlider" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="mb-0">Zesty zing at Qrispy Food is a flavor explosion! Exceptional
+                                        taste, and delightful experience.
+                                    </p>
+                                    <div class="person">
+                                        <img src="chef2.jpg" alt="John Due" class="img-fluid">
+                                        <h4>Zesty Zing</h4>
+                                        <div class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="mb-0">Zesty zing at Qrispy Food is a flavor explosion! Exceptional
+                                        taste, and delightful experience.
+                                    <div class="person">
+                                        <img src="chef2.jpg" alt="Another Reviewer" class="img-fluid">
+                                        <h4>Zesty Zing</h4>
+                                        <div class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--Review section end here-->
+    <!--Reservation Start here-->
+    <section id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-center">
+                    <h1 id="bookyourtable">Book Your Table.</h1>
+                    <p>Reserve your table now for a delightful dining experience.
+                    </p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Enter Message"></textarea>
+                        </div>
+                        <div class="form-group  text-center col-md-12">
+                            <a href="#" style="background-color: rgba(255,119,0);" class="btn btn-brand">Book Tabel</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!--Reservation end here-->
+    <!--Discount  section start here-->
+    <section class="discount-section">
+        <div class="discount-content">
+            <h2>Exclusive 20% Off on Your First Order!</h2>
+            <p>Enjoy delicious meals at a discount. Order now and indulge in our tasty offerings at a great price.</p>
+            <a href="post2.jpg" class="discount-btn">Order Now</a>
+        </div>
+    </section>
+    <!--Discount section close here-->
+    <!--blog post-->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text text-center">
+                    <h1>Blog Posts</h1>
+                    <h5>Fast Food Frenzy: Crispy Delights Await.</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Blog Post 1 -->
+                <div class="col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="blog-post">
+                        <div class="blog-post-img">
+                            <img src="post1.jpg" alt="">
+                        </div>
+                        <div class="blog-post-content">
+                            <p>Posted: 25 Dec, 2013</p>
+                            <h4><a href="#">Delicious Crispy Chicken.</a></h4>
+                            <p>Enjoy irresistible flavors of crispy chicken.</p>
+                            <a href="#" style="color:rgba(255,119,9)">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class=" col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="blog-post">
+                        <div class="blog-post-img">
+                            <img src="post2.jpg" alt="">
+                        </div>
+                        <div class="blog-post-content">
+                            <p>Posted: 1 Jan, 2015</p>
+                            <h4><a href="#">Slice of Heaven.</a></h4>
+                            <p>Experience pizza like never before.</p>
+                            <a href="#" style="color:rgba(255,119,9)">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class=" col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="blog-post">
+                        <div class="blog-post-img">
+                            <img src="food6.jpg" alt="">
+                        </div>
+                        <div class="blog-post-content">
+                            <p>Posted: 5 March, 2017</p>
+                            <h4><a href="#">How to make delicious food.</a></h4>
+                            <p>Cook with love for delicious meals.</p>
+                            <a href="#" style="color:rgba(255,119,9)">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class=" col-sm-10 col-md-6 col-lg-5 mb-4">
+                    <div class="blog-post">
+                        <div class="blog-post-img">
+                            <img src="post3.jpg" alt="">
+                        </div>
+                        <div class="blog-post-content">
+                            <p>Posted: 21 Oct, 2021 </p>
+                            <h4><a href="#">Spicy Pav Bhaji Bliss Chronicles.</a>
+                            </h4>
+                            <p>Savor the taste of nostalgia.</p>
+                            <a href="#" style="color:rgba(255,119,9)">Read More</a>
+                        </div </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--Footer section Start here-->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+
+                        <h1 style="color:rgba(255,119,0);">About Us</h1>
+                        <p>Qrispy and Fast Food serves up delicious, crispy, and quick meals made fresh
+                            daily.Perfect flavors,
+                            fast service, pure satisfaction.</p>
+                        <div class="social-link">
+
+                            <a href=""><i class="ri-instagram-fill"></i></a>
+                            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                            <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                            <a href=""><i class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ms-auto">
+                        <h6 style="color: rgba(255,119,0);" mb-4">Contact</h6>
+                        <p class="mb-1">foodxyz@gmail.com</p>
+                        <p class="mb-0">244001 Moradabad,Uttar Pradesh.</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h6 style="color:rgba(255,119,0)" mb-4">Opening Hours</h6>
+                        <p class="mb-1">Monday:Friday:08:00-22:00</p>
+                        <p class="mb-1">Saturday:Sunday:10:00-22:00</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer section end here-->
+
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
