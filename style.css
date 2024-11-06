@@ -172,7 +172,7 @@ body {
 /* Feature Section Styling */
 .features-section {
     position: relative;
-    background-image: url('food9.jpg');
+    background-image: url('food9(1).jpg');
     background-size: cover;
     background-position: center;
     padding: 50px 0;
@@ -321,7 +321,7 @@ body {
 
 /*Review*/
 #review {
-    background-image: url('resturant2.jpg');
+    background-image: url('resturant2(1).jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -433,7 +433,7 @@ body {
 
 /*Discount Section*/
 .discount-section {
-    background: url('food17.jpg') center/cover no-repeat;
+    background: url('food17(1).jpg') center/cover no-repeat;
     padding: 60px 20px;
     color: white;
     text-align: center;
